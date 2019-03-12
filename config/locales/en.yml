@@ -6,3 +6,26 @@ en:
       home_page_for: This is the home page for the
       sample: sample application
       tutorial: Ruby on Rails Tutorial
+      the: the
+      by: by
+      michael: Michael Hartl
+      new: News
+      contact: Contact
+      about: About
+      home: Home
+      help: Help
+      login: Log in
+    contact:
+      contact: Contact
+      lienhe: Contact the Ruby on Rails Tutorial about the sample app at the
+      page: contact page
+    help:
+      help: Help
+      gethelp: Get help on the Ruby on Rails Tutorial at the
+      helppage: Rails Tutorial help page
+      tutorial: Ruby on Rails Tutorial
+      book: book
+  users:
+    new:
+      signup: Sign up
+      foruser: This will be a signup page for new users
