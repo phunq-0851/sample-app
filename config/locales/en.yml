@@ -25,6 +25,7 @@ en:
       helppage: Rails Tutorial help page
       tutorial: Ruby on Rails Tutorial
       book: book
+      see: To get help on this sample app, see the
   users:
     new:
       signup: Sign up

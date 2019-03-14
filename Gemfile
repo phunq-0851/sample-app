@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.5.0"
 gem "rails", "~> 5.2.2"
+gem "bcrypt", "~> 3.1.12"
 gem "bootstrap-sass","3.3.7"
 gem "rails-i18n"
 gem "puma", "~> 3.11"
@@ -23,7 +24,7 @@ group :development do
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
 end
-group :production do 
+group :production do
   gem "pg","0.20.0"
 end
 group :test do
