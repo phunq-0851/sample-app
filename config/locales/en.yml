@@ -14,11 +14,14 @@ en:
       about: About
       home: Home
       help: Help
-      login: Log in
+      log_in: Log in
+      logo: logo
+
     contact:
       contact: Contact
       lienhe: Contact the Ruby on Rails Tutorial about the sample app at the
       page: contact page
+
     help:
       help: Help
       get_help: Get help on the Ruby on Rails Tutorial at the
@@ -26,10 +29,16 @@ en:
       tutorial: Ruby on Rails Tutorial
       book: book
       see: To get help on this sample app, see the
+
+    about:
+      contact: Contact
+
   users:
     new:
       signup: Sign up
       foruser: This will be a signup page for new users
+
+      sign_up: Sign up
       confirm: Confirmation
       create_ac: Create my account
   layouts:
@@ -41,6 +50,18 @@ en:
   shared:
     error_messages:
       contains: The form contains
+      setting: Settings
+      logout: Log out
+      login: Log in
+      home: Home
+      logo: logo
+  shared:
+    error_messages:
+      contains: The form contains
+  sessions:
+    new:
+      login: Log in
+      sign_up_now: Sign up now
   controllers:
     users_controller:
       abc: Welcome to the Sample App
