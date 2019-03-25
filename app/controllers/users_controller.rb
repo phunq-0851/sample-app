@@ -6,10 +6,9 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by id: params[:id]
-    if @user.blank?
-      flash[:danger] = I18n.t "controllers.users_controller.none"
-      redirect_to :root
-    end
+    return if @user
+    flash[:danger] = t "controllers.users_controller.none"
+    redirect_to root_path
   end
 
   def new
@@ -20,7 +19,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       log_in @user
-      flash[:success] = I18n.t "controllers.users_controller.abc"
+      flash[:success] = t "controllers.users_controller.abc"
       redirect_to @user
     else
       render :new
