@@ -36,6 +36,11 @@ en:
       sign_up: Sign up
       confirm: Confirmation
       create_ac: Create my account
+    edit:
+      edit_u: Edit User
+      button: Save change
+    index:
+      all_user: All User
   layouts:
     header:
       logo: logo
@@ -45,6 +50,11 @@ en:
   shared:
     error_messages:
       contains: The form contains
+      sign_up: Sign up
+      confirm: Confirmation
+      create_ac: Create my account
+  layouts:
+    header:
       setting: Settings
       logout: Log out
       login: Log in
@@ -58,9 +68,21 @@ en:
       login: Log in
       sign_up_now: Sign up now
       remember: Remember me on this computer
+  user_mailer:
+    account_activation:
+      sample_app: Sample App
+      hi: Hi
+      welcome: Welcome to the Sample App! Click on the link below to activate your account
+    password_reset:
+      pw_reset: User#password_reset
   controllers:
     users_controller:
       abc: Welcome to the Sample App
       none: User doesn't exist
+      error: Cannot delete
     sessions_controller:
       invalid: Invalid email/password combination
+      update: Profile updated
+      delete: User deleted
+      log_in: Pleas log in
+      check: Please check your email to activate your account
