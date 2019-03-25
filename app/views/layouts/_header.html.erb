@@ -13,6 +13,11 @@
             <% end %>
             <ul class="dropdown-menu">
               <li><%= link_to "Profile", current_user %></li>
+            <%= link_to "#", class: "dropdown-toggle", data:{ toggle: "dropdown" } do %>
+              <%= t ".acc" %> <b class="caret"></b>
+            <% end %>
+            <ul class="dropdown-menu">
+              <li><%= link_to t(".profile"), current_user %></li>
               <li><%= link_to t(".setting"), "#" %></li>
               <li class="divider"></li>
               <li>
