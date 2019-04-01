@@ -6,6 +6,9 @@ ruby "2.5.0"
 gem "rails", "~> 5.2.2"
 gem "bcrypt", "~> 3.1.12"
 gem "ffaker"
+gem "i18n-js"
+gem "carrierwave"
+gem "mini_magick"
 gem "kaminari"
 gem "bootstrap-kaminari-views"
 gem "bootstrap-sass","3.3.7"
@@ -34,6 +37,7 @@ end
 
 group :production do
   gem "pg","0.20.0"
+  gem "fog", "1.42"
 end
 group :test do
   gem "capybara", ">= 2.15"
