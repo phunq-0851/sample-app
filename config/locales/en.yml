@@ -16,6 +16,7 @@ en:
       help: Help
       log_in: Log in
       logo: logo
+      micro_feed: Micropost Feed
     contact:
       contact: Contact
       contact_app: Contact the Ruby on Rails Tutorial about the sample app at the
@@ -41,12 +42,8 @@ en:
       button: Save change
     index:
       all_user: All User
-  layouts:
-    header:
-      logo: logo
-      sample_app: sample app
-      home: Home
-      help: Help
+    show:
+      micro: Microposts
   shared:
     error_messages:
       contains: The form contains
@@ -63,6 +60,12 @@ en:
       proflie: Profile
       acc: Account
       sample_app: sample app
+      help: Help
+  microposts:
+    micropost:
+      posted: Posted
+      delete: Delete
+      sure: You sure?
   sessions:
     new:
       login: Log in
@@ -86,3 +89,13 @@ en:
       delete: User deleted
       log_in: Pleas log in
       check: Please check your email to activate your account
+    microposts_controller:
+      created: Micropost created
+      deleted: Micropost deleted
+      not: Cannot Delete
+  models:
+    micropost:
+      less: should be less than 5MB
+  evalators:
+    alert:
+      maximum: "Maximum file size is 5MB. Please choose a smaller file."

@@ -8,10 +8,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find_by id: params[:id]
-    return if @user
-    flash[:danger] = t "controllers.users_controller.none"
-    redirect_to root_path
+    @microposts = @user.microposts.page(params[:page]).per Settings.five
   end
 
   def new
